@@ -7,5 +7,5 @@ services:
     build: ./chat
     ports: ["5002:5000"]
   chatData:
-    build: ./chatData
+    build: ./chatdata
     ports: ["5003:5000"]
