@@ -1,0 +1,11 @@
+version: "2"
+services:
+  login:
+    build: ./login
+    ports: ["5001:5000"]
+  chat:
+    build: ./chat
+    ports: ["5002:5000"]
+  chatData:
+    build: ./chatData
+    ports: ["5003:5000"]
